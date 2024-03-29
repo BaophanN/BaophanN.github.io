@@ -1,47 +1,28 @@
 ---
 layout: post
-title: a post with table of contents on a sidebar
+title: MIT Challenge
 date: 2023-04-25 10:14:00-0400
-description: an example of a blog post with table of contents on a sidebar
-tags: formatting toc sidebar
-categories: sample-posts
+description: Diary of the whole summer MIT challenge - my take version
+categories: sample-posts toc sidebar
 giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
 ---
+I documented my journey of MIT challenge following that by [Scott H.Young](https://www.scotthyoung.com/blog/2012/12/19/changing-the-mit-challenge/).
 
-This post shows how to add a table of contents as a sidebar.
+## Week 1
+Initially, I intended to take 6.01. However, after two days studying the material I discovered that the course focused too heavily on electrical engineering and clearly lacked the Computer Science essence I needed. Hence, I switched to 6.00 - Introduction to Computer Science and Programming. The course was a great re-introduction to Python which also addressed on other topics in computing. Since I could not complete all the course material in the first week due to lack of time, I extended the period of the course up to 2 weeks, which means I should finish the final exam before 14/6.
 
-## Adding a Table of Contents
+As of 6.00, everything was comprehensive enough for the introductory level. The textbook it offered was great. However, the old version of the course did not come with any lecture notes or slides so I had to refer to 6.0002 material to study Graph, Computational model and Statistical model.
 
-To add a table of contents to a post as a sidebar, simply add
+<!-- ## Week 2 
 
-```yml
-toc:
-  sidebar: left
-```
+## Week 3
 
-to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change `left` to `right`.
 
-### Example of Sub-Heading 1
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Week 4
 
-### Example of another Sub-Heading 1
+## Week 5 -->
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-## Customizing Your Table of Contents
-
-{:data-toc-text="Customizing"}
-
-If you want to learn more about how to customize the table of contents of your sidebar, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.
-
-### Example of Sub-Heading 2
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-### Example of another Sub-Heading 2
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
