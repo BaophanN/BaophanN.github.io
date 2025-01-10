@@ -1,5 +1,5 @@
-# keunhong.github.io
-
+# My personal website 
+- The template is built with Ruby on Rails and Jekyll by keunhong
 - Feel free to borrow this template.
 - Make sure to update all relevant fields in `_config.yml` and `_data`.
 
