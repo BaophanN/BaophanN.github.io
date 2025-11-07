@@ -20,22 +20,20 @@
 
 title: Bao Phan
 name: Bao Phan
-position: AI Engineer Intern 
-email: bao.phan0805@hcmut.edu.vn 
+position: AI Engineer
+email: phangiabao9999@gmail.com 
 description: >-
-  I am a researcher in 3D computer vision and generative AI. I currently co-lead the development of spatial intelligence at [World Labs](https://www.worldlabs.ai/blog).
-  I was previously a research scientist at [Google](https://ai.google/research/) where I built technology to [generate 3D assets](https://blog.google/products/shopping/search-on-2022-shopping/) for products on Google Search.
+  I like autonomous systems.
+  I am an AI engineer at [VinFast](https://vinfast.com) (previously [VinAI](https://www.vinai.io)) working on building Occupant Monitoring System.
+  I also do research in 3D computer vision for autonomous driving at [AI Tech Lab](https://ml4uhcmut.github.io).
+  I received my BSc in computer engineering from [Ho Chi Minh City University of Technology](https://hcmut.edu.vn/) in 2025 where I was advised by [Nguyen Duc Dung](https://ml4uhcmut.github.io/team).
 
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://baophan.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
-
+url: "https://baophan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: KeunhongP
+github_username: baophann
+linkedin_username: gia-bao-phan
+cv: assets/CV_PhanGiaBao_2025_Oct.pdf
 # Build settings
 theme: minima
 plugins:

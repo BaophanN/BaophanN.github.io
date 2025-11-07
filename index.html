@@ -53,26 +53,30 @@ layout: null
           <div class="content has-text-justified">
             {{ site.description | markdownify }}
             <div class="buttons">
-              <a class="external-link button is-light" href="cv.html">
+              <a class="external-link button is-light" href="{{ site.cv }}">
                 <span class="icon"><i class="fas fa-file"></i></span>
                 <span>CV</span>
               </a>
 
-              <a class="external-link button is-light"
+              <!-- <a class="external-link button is-light"
                 href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
                 <span class="icon"><i class="ai ai-google-scholar"></i></span>
                 <span>Scholar</span>
-              </a>
-
+              </a> -->
               <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
               </a>
+              <a class="external-link button is-light" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                <span class="icon"><i class="fab fa-linkedin"></i></span>
+                <span>LinkedIn</span>
+              </a>
 
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
+
+              <!-- <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
                 <span class="icon"><i class="fab fa-twitter"></i></span>
                 <span>Twitter</span>
-              </a>
+              </a> -->
             </div>
 
           </div>
@@ -149,14 +153,14 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+              <a class="external-link button is-small is-ghost" href="{{ publication.paper_pdf }}">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>arXiv</span>
-              </a>
+              </a> -->
               {% if publication.github %}
               <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>
@@ -182,18 +186,9 @@ layout: null
         <a class="external-link" href="https://github.com/{{ site.github_username }}">
           <i class="fab fa-github"></i>
         </a>
-        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-          <i class="ai ai-google-scholar"></i>
+        <a class="external-link" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="fab fa-linkedin"></i>
         </a>
-      </div>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-8">
-          <div class="content">
-            <p>
-              Feel free to <a href="https://github.com/keunhong/keunhong.github.io">borrow this template</a>.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </footer>

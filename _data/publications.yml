@@ -1,18 +1,17 @@
-# - id: illuminerf
-#   title: "IllumiNeRF 3D Relighting without Inverse Rendering"
-#   venue: NeurIPS, 2024
-#   description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
-#   project_page: https://illuminerf.github.io
-#   arxiv: 2406.06527
-#   image: illuminerf_before.jpg
-#   image_mouseover: illuminerf_after.mp4
-#   authors:
-#     - xiaomingzhao
-#     - pratuls
-#     - dorverbin
-#     - keunhong
-#     - rmbrualla
-#     - phenzler
+- id: tlsd
+  title: "TLSD: Breaking the Limit of Topological Lane Mapping with Graph Knowledge and Distance Awareness"
+  venue: ACML, 2025
+  description: "An efficient end-to-end neural network that jointly learns geometric and topological structures of HD maps from multi-view images"
+  project_page: https://baophann.github.io/TLSD
+  # arxiv: 2406.06527
+  paper_pdf: assets/tlsd.pdf
+  image: tlsd.jpg
+  # image_mouseover: tlsd.jpg
+  authors:
+    - anhnguyen
+    - baophann
+    - trihuynh
+    - nddung
 # - id: reconfusion
 #   title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
 #   venue: CVPR, 2024
